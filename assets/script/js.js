@@ -1,3 +1,9 @@
+
+$('#dashboard-section').css('display', 'block');
+$('#customer-section').css('display', 'none');
+$('#item-section').css('display', 'none');
+$('#order-section').css('display', 'none');
+
 $('#nav-dashboard').on('click',()=>{
 
     $('#dashboard-section').css('display', 'block');
